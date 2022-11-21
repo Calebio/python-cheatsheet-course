@@ -25,7 +25,7 @@ before they have any effect.
 #basics
 
 class MyClass:
-    """A simple example class"""
+    """Always put a comment about the class here to help you understand what the class is used for"""
     i = 12345
     
     def f(self):
@@ -33,7 +33,7 @@ class MyClass:
 
 MyClass.i # return the int
 MyClass.f # returns a function object
-MyClass.__doc__ # magic method/dunder method that return the text literal
+MyClass.__doc__ # magic method/dunder method that return the text literal you have written for the class
 
 x = MyClass() #instantiates the class
 x.i # return the int

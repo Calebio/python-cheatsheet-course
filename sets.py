@@ -38,7 +38,7 @@ update() Update the set with another set, or any other iterable
 basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
 print(basket)# show that duplicates have been removed
 
-'orange' in basket # fast membership testing
+'orange' in basket # Means => Does basket contain 'orange'?
 'crabgrass' in basket
 
 # Demonstrate set operations on unique letters from two words

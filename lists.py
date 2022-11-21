@@ -83,7 +83,7 @@ for x in range(10):
     y.append(x**2)
 
 y
-y = [x**2 for x in range(10)]
+y = [x**2 for x in range(10)] # List comprehension => read up!
 y
 
 #built-in function list()

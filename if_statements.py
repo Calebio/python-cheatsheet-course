@@ -32,6 +32,7 @@ def number_play(x):
     else:
         print('More')
 
+
 number_play(-1)
 number_play(0)
 number_play(1)

@@ -56,3 +56,7 @@ for i in range(len(a)):
 
 #using the built-in sum function
 sum(range(4))
+'''
+According to indexing, since it is range(4) it will start at 0,1,2,3
+This code above means, it will add +0+1+2+3 and the expected result is 6
+'''

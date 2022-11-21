@@ -113,18 +113,18 @@ prefix + 'Coding'
 word = 'Didcoding'
 word[0]  # character in position 0
 word[5]  # character in position 5
-word[0:2]  # characters from position 0 (included) to 2 (excluded)
-word[2:5]  # characters from position 2 (included) to 5 (excluded)
-word[:2]   # character from the beginning to position 2 (excluded)
-word[4:]   # characters from position 4 (included) to the end
+word[0:2]  # This means include the characters from the number before the ':' and exclude characters from the number after ':'
+word[2:5]  # This means include characters starting from 2 and exclude the character from number 5. 
+word[:2]   # This means add only 0 and 1, then ignore from 2 till the end. 
+word[4:]   # This means add from 4 and ignore from 0 to 3.
 word[-2:]  # characters from the second-last (included) to the end
 word[:2] + word[2:]
 word[:4] + word[4:]
 
 
 #changing strings
-word[0] = 'P'
-'P' + word[1:]
+word[0] = 'P' #This won't work because in python you can change strings in a variable
+'P' + word[1:] # For this, we add the 'P' string + excluding only the first letter in the variable.
 word[:2] + 'di'
 
 #Sting length

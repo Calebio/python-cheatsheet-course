@@ -64,6 +64,7 @@ point_tuple = (123,456)
 #Match class
 from dataclasses import dataclass
 @dataclass
+
 class Point:
     x: int
     y: int
@@ -80,6 +81,7 @@ def where_is(point):
             print("Somewhere else")
         case _:
             print("Not a point")
+
 
 where_is(Point(0, 0))
 where_is(Point(0, 10))
