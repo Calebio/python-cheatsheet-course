@@ -8,8 +8,8 @@ We have a whole bunch of opperators at our disposal
 + Addition
 - Subtraction
 * Multiplication
-/ Division
-// Floor division
+/ Division => returns a float version
+// Floor division => returns an int version
 % Modulus (remainder of x / y) | use divmod(a, b) 
 ** Exponentiation (power of) | can also use pow(x , y) instead of x**y
 
